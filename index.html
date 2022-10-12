@@ -1,11 +1,7 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
-
-
 <head>
-
   <meta charset="utf-8">
 
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -25,8 +21,6 @@
   <link href="assets/img/favicon.png" rel="icon">
 
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-
 
   <!-- Google Fonts -->
 
@@ -101,7 +95,6 @@
             <div class="form-group">
 
               <textarea name="message" class="form-control" name="message" cols="45" rows="8" placeholder="Mensagem"
-
                 required></textarea>
 
             </div>
@@ -145,7 +138,6 @@
     <div class="container">
 
       <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDefault"
-
         aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
 
         <span></span>
@@ -171,45 +163,39 @@
         <ul class="navbar-nav">
 
           <li class="nav-item">
-
-            <a class="nav-link active" href="#">Início</a>
-
+            <a id="menuinicio" onclick="addActive('menuinicio');" class="nav-link active" href="#">Início</a>
           </li>
 
           <li class="nav-item">
-
-            <a class="nav-link" href="#empresa">Empresa</a>
-
+            <a id="menuempresa" onclick="addActive('menuempresa');" class="nav-link" href="#empresa">Empresa</a>
           </li>
 
           <li class="nav-item">
-
-            <a class="nav-link" href="#servicos">Serviços</a>
-
+            <a id="menuservicos" onclick="addActive('menuservicos');" class="nav-link" href="#servicos">Serviços</a>
           </li>
 
           <li class="nav-item">
-
-            <a class="nav-link " href="#time">Nossa equipe</a>
-
+            <a id="menutime" onclick="addActive('menutime');"  class="nav-link " href="#time">Nossa equipe</a>
           </li>
-          <li class="nav-item">
-
-            <a class="nav-link " target="_blank" href="http://www.holdingrural.com.br/imoveis/index.html">Imóveis Rurais</a>
-
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" onclick="addActive('navbarDropdown');" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">Imóveis</a>
+            <div class="dropdown-menu">
+              <a id="menuirural" onclick="addActive('menuirural');" class="dropdown-item " href="#irural">Rural</a>
+              <a id="menuiurbano" onclick="addActive('menuiurbano');" class="dropdown-item " href="#iurbano">Urbano</a>
+            </div>
           </li>
 
           <li class="nav-item">
-
-            <a class="nav-link " href="#contato">Contato</a>
-
+            <a id="menucontato" onclick="addActive('menucontato');" class="nav-link " href="#contato">Contato</a>
           </li>
 
         </ul>
 
       </div>
 
-      <button type="button" class="btn btn-b-n" onclick="sendMessage('https:\/\/api.whatsapp.com\/send?phone=5543999822020&text=Gostaria%20de%20saber%20mais%20sobre%20a%20Efetiva%20Group');">
+      <button type="button" class="btn btn-b-n"
+        onclick="sendMessage('https:\/\/api.whatsapp.com\/send?phone=5543999822020&text=Gostaria%20de%20saber%20mais%20sobre%20a%20Efetiva%20Group');">
 
         <i class="bi bi-whatsapp"></i>
 
@@ -393,7 +379,9 @@
 
         <div class="modal-footer">
 
-          <button type="button" class="btn btn-b-n" onclick="sendMessage('https:\/\/api.whatsapp.com\/send?phone=5543999822020&text=Olá%20gostaria%20de%20saber%20mais%20sobre%20Serviços%20de%20Regularização%20Urbana');"><i class="bi bi-whatsapp"></i> Quero saber mais </button>
+          <button type="button" class="btn btn-b-n"
+            onclick="sendMessage('https:\/\/api.whatsapp.com\/send?phone=5543999822020&text=Olá%20gostaria%20de%20saber%20mais%20sobre%20Serviços%20de%20Regularização%20Urbana');"><i
+              class="bi bi-whatsapp"></i> Quero saber mais </button>
 
         </div>
 
@@ -479,7 +467,9 @@
 
         <div class="modal-footer">
 
-          <button type="button" class="btn btn-b-n" onclick="sendMessage('https:\/\/api.whatsapp.com\/send?phone=5543999822020&text=Gostaria%20de%20saber%20mais%20sobre%20Serviços%20de%20Regularização%20Rural');"><i class="bi bi-whatsapp"></i> Quero saber mais </button>
+          <button type="button" class="btn btn-b-n"
+            onclick="sendMessage('https:\/\/api.whatsapp.com\/send?phone=5543999822020&text=Gostaria%20de%20saber%20mais%20sobre%20Serviços%20de%20Regularização%20Rural');"><i
+              class="bi bi-whatsapp"></i> Quero saber mais </button>
 
         </div>
 
@@ -583,7 +573,9 @@
 
         <div class="modal-footer">
 
-          <button type="button" class="btn btn-b-n" onclick="sendMessage('https:\/\/api.whatsapp.com\/send?phone=5543999822020&text=Gostaria%20de%20saber%20mais%20sobre%20Serviços%20de%20Regularização%20Ambiental');"><i class="bi bi-whatsapp"></i> Quero saber mais </button>
+          <button type="button" class="btn btn-b-n"
+            onclick="sendMessage('https:\/\/api.whatsapp.com\/send?phone=5543999822020&text=Gostaria%20de%20saber%20mais%20sobre%20Serviços%20de%20Regularização%20Ambiental');"><i
+              class="bi bi-whatsapp"></i> Quero saber mais </button>
 
         </div>
 
@@ -679,7 +671,9 @@
 
         <div class="modal-footer">
 
-          <button type="button" class="btn btn-b-n" onclick="sendMessage('https:\/\/api.whatsapp.com\/send?phone=5543999822020&text=Gostaria%20de%20saber%20mais%20sobre%20Serviços%20Cartorários');"><i class="bi bi-whatsapp"></i> Quero saber mais </button>
+          <button type="button" class="btn btn-b-n"
+            onclick="sendMessage('https:\/\/api.whatsapp.com\/send?phone=5543999822020&text=Gostaria%20de%20saber%20mais%20sobre%20Serviços%20Cartorários');"><i
+              class="bi bi-whatsapp"></i> Quero saber mais </button>
 
         </div>
 
@@ -855,7 +849,9 @@
 
         <div class="modal-footer">
 
-          <button type="button" class="btn btn-b-n" onclick="sendMessage('https:\/\/api.whatsapp.com\/send?phone=5543999822020&text=Quero%20Comprar!');"><i class="bi bi-whatsapp"></i> Quero saber mais </button>
+          <button type="button" class="btn btn-b-n"
+            onclick="sendMessage('https:\/\/api.whatsapp.com\/send?phone=5543999822020&text=Quero%20Comprar!');"><i
+              class="bi bi-whatsapp"></i> Quero saber mais </button>
 
         </div>
 
@@ -1025,7 +1021,9 @@
 
         <div class="modal-footer">
 
-          <button type="button" class="btn btn-b-n" onclick="sendMessage('https:\/\/api.whatsapp.com\/send?phone=5543999822020&text=Quero%20Vender!');"><i class="bi bi-whatsapp"></i> Quero saber mais </button>
+          <button type="button" class="btn btn-b-n"
+            onclick="sendMessage('https:\/\/api.whatsapp.com\/send?phone=5543999822020&text=Quero%20Vender!');"><i
+              class="bi bi-whatsapp"></i> Quero saber mais </button>
 
         </div>
 
@@ -1235,25 +1233,15 @@
 
         <div class="modal-footer">
 
-          <button type="button" class="btn btn-b-n" onclick="sendMessage('https:\/\/api.whatsapp.com\/send?phone=5543999822020&text=Quero%20Ser%20Parceiro!');"><i class="bi bi-whatsapp"></i> Quero saber mais </button>
+          <button type="button" class="btn btn-b-n"
+            onclick="sendMessage('https:\/\/api.whatsapp.com\/send?phone=5543999822020&text=Quero%20Ser%20Parceiro!');"><i
+              class="bi bi-whatsapp"></i> Quero saber mais </button>
 
         </div>
 
       </div>
 
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
 
   </div>
 
@@ -1289,7 +1277,9 @@
 
         <div class="modal-footer">
 
-          <button type="button" class="btn btn-b-n" onclick="sendMessage('https:\/\/api.whatsapp.com\/send?phone=5543999822020&text=Quero%20Indicar!');"><i class="bi bi-whatsapp"></i> Quero saber mais </button>
+          <button type="button" class="btn btn-b-n"
+            onclick="sendMessage('https:\/\/api.whatsapp.com\/send?phone=5543999822020&text=Quero%20Indicar!');"><i
+              class="bi bi-whatsapp"></i> Quero saber mais </button>
 
         </div>
 
@@ -1447,7 +1437,9 @@
 
         <div class="modal-footer">
 
-          <button type="button" class="btn btn-b-n" onclick="sendMessage('https:\/\/api.whatsapp.com\/send?phone=5543999822020&text=Gostaria%20de%20saber%20mais%20sobre%20Holding%20Rural.');"><i class="bi bi-whatsapp"></i> Quero saber mais </button>
+          <button type="button" class="btn btn-b-n"
+            onclick="sendMessage('https:\/\/api.whatsapp.com\/send?phone=5543999822020&text=Gostaria%20de%20saber%20mais%20sobre%20Holding%20Rural.');"><i
+              class="bi bi-whatsapp"></i> Quero saber mais </button>
 
         </div>
 
@@ -1999,7 +1991,7 @@
 
                       <i class="profission bi bi-check"></i> Técnico em Meio Ambiente
 
-                    </li>                    
+                    </li>
 
                   </ul>
 
@@ -2305,15 +2297,73 @@
 
     </section>
 
-    </div>
+    <!-- ======= Intro Single ======= -->
+    <section id="irural" class="intro-single">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-lg-8">
+            <div class="title-single-box">
+              <h1 class="title-single">Imóveis Rurais</h1>
+              <span class="color-text-a color-default">Conheça Nossa Seleção Exlusiva de Imóveis Rurais</span>
+            </div>
+          </div>
+          <div class="col-md-12 col-lg-4">
+            <nav aria-label="breadcrumb" class="breadcrumb-box d-flex justify-content-lg-end">
+              <button type="button" class="btn btn-a"
+                onclick="sendMessage('http:\/\/www.holdingrural.com.br\/imoveis\/index.html');"><i
+                  class="bi bi-whatsapp"></i> Acessar Imóveis </button>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Intro Single-->
 
-
-
-    </div>
-
+    <!-- ======= About Section ======= -->
+    <section class="section-about">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 position-relative">
+            <div class="about-img-box">
+              <img src="assets/img/irural.jpg" alt="" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <!-- End Agents Grid-->
+
+    <!-- ======= Intro Single ======= -->
+    <section id="iurbano" class="intro-single">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-lg-8">
+            <div class="title-single-box">
+              <h1 class="title-single">Imóveis Urbanos</h1>
+              <span class="color-text-a color-default">Conheça Nossa Seleção Exlusiva de Imóveis Urbanos</span>
+            </div>
+          </div>
+          <div class="col-md-12 col-lg-4">
+            <nav aria-label="breadcrumb" class="breadcrumb-box d-flex justify-content-lg-end">
+              <button type="button" class="btn btn-a" onclick="sendMessage('https:\/\/www.corretordoagro.com.br');"><i
+                  class="bi bi-whatsapp"></i> Acessar Imóveis </button>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Intro Single-->
+
+    <!-- ======= About Section ======= -->
+    <section class="section-about">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 position-relative">
+            <div class="about-img-box">
+              <img src="assets/img/iurbanos.jpg" alt="" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
 
 
@@ -2366,9 +2416,7 @@
                   <div id="map" class="contact-map">
 
                     <iframe
-
                       src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14552.759036874344!2d-51.6681445!3d-24.235141!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa03929d9103922cc!2sCONEX%C3%83O%20-%20Contabilidade%20e%20Assessoria%20Empresarial%20e%20Rural!5e0!3m2!1spt-BR!2sbr!4v1645882804662!5m2!1spt-BR!2sbr"
-
                       width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
                   </div>
@@ -2502,7 +2550,6 @@
                           <li class="list-inline-item">
 
                             <a target="_blank" href="https://instagram.com/efetivagroup?utm_medium=copy_link"
-
                               class="link-one">
 
                               <i class="bi bi-instagram color-default" aria-hidden="true"></i>
@@ -2606,7 +2653,6 @@
     <div id="preloader"></div>
 
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-
         class="bi bi-arrow-up-short"></i></a>
 
 
@@ -2632,21 +2678,33 @@
 
 
     <script type="text/javascript">
-
       function sendMessage(link) {
-
         window.open(link, "_blank");
+      }
 
+      function removeActives() {
+        document.getElementById('menuinicio').classList.remove('active');
+        document.getElementById('menuempresa').classList.remove('active');
+        document.getElementById('menuservicos').classList.remove('active');
+        document.getElementById('menutime').classList.remove('active');
+        document.getElementById('menuirural').classList.remove('active');
+        document.getElementById('menuiurbano').classList.remove('active');
+        document.getElementById('menucontato').classList.remove('active');
+        document.getElementById('navbarDropdown').classList.remove('active');        
+      }
+
+      function addActive(menu) {
+        removeActives();
+        let el = document.getElementById(menu);
+        if(menu=='menuiurbano' || menu=='menuirural' ){
+          document.getElementById('navbarDropdown').classList.add('active');
+          el.classList.add('active');
+        }
+        el.classList.add('active');
       }
 
 
-
     </script>
-
-
-
 </body>
-
-
 
 </html>
