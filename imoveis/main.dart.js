@@ -71981,7 +71981,7 @@ o=a.a.a
 o.toString
 n=t.N
 s=4
-return A.a_(A.alX(A.kK("http://137.184.25.129:8080/imoveis"+("?id_estado="+k+"&id_cidade="+o+"&finalidade="+a.c+"&area_inicio="+A.h(a.d)+"&area_fim="+A.h(a.e)+"&valor_venda_inicio="+A.h(a.f)+"&valor_venda_fim="+A.h(a.r)+"&limit="+a.x+"&offset="+a.w),0,null),A.aB(["Authorization","Bearer "+l],n,n)),$async$pZ)
+return A.a_(A.alX(A.kK("https://marcelosolusys.com.br/api"+("?id_estado="+k+"&id_cidade="+o+"&finalidade="+a.c+"&area_inicio="+A.h(a.d)+"&area_fim="+A.h(a.e)+"&valor_venda_inicio="+A.h(a.f)+"&valor_venda_fim="+A.h(a.r)+"&limit="+a.x+"&offset="+a.w),0,null),A.aB(["Authorization","Bearer "+l],n,n)),$async$pZ)
 case 4:m=c
 k=m.b
 if(k===200){q=p.abq(A.alW(A.alB(m.e).c.a.h(0,"charset")).dd(0,m.w))
