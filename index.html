@@ -3,33 +3,16 @@
 
 <head>
   <meta charset="utf-8">
-
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-
-
   <title>EfetivaGroup - Negócios Imobiliários</title>
-
   <meta content="" name="description">
-
   <meta content="" name="keywords">
-
-
-
   <!-- Favicons -->
-
   <link href="assets/img/favicon.png" rel="icon">
-
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
   <!-- Google Fonts -->
-
   <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
-
-
-
   <!-- Vendor CSS Files -->
-
   <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
 
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -37,27 +20,8 @@
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
 
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-
-
   <!-- Template Main CSS File -->
-
   <link href="assets/css/style.css" rel="stylesheet">
-
-
-
-  <!-- =======================================================
-
-  * Template Name: EstateAgency - v4.7.0
-
-  * Template URL: https://bootstrapmade.com/real-estate-agency-bootstrap-template/
-
-  * Author: BootstrapMade.com
-
-  * License: https://bootstrapmade.com/license/
-
-  ======================================================== -->
-
 </head>
 
 
@@ -65,21 +29,13 @@
 <body>
 
   <!-- ======= Property Search Section ======= -->
-
   <div class="click-closed"></div>
-
   <!--/ Form Search Star /-->
-
   <div class="box-collapse">
-
     <div class="title-box-d">
-
       <section id="0">
-
         <h3 class="title-d">Mensagem</h3>
-
       </section>
-
     </div>
 
     <span class="close-box-collapse right-boxed bi bi-x"></span>
@@ -139,7 +95,6 @@
 
       <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDefault"
         aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
-
         <span></span>
 
         <span></span>
@@ -163,31 +118,38 @@
         <ul class="navbar-nav">
 
           <li class="nav-item">
-            <a id="menuinicio" onclick="addActive('menuinicio');" class="nav-link active" href="#">Início</a>
+            <a id="menuinicio" data-bs-toggle="collapse" data-bs-target="#navbarDefault" aria-expanded="false" href=""
+              onclick="addActive('menuinicio'); scrool('#')" class="nav-link active">Início</a>
           </li>
 
           <li class="nav-item">
-            <a id="menuempresa" onclick="addActive('menuempresa');" class="nav-link" href="#empresa">Empresa</a>
+            <a id="menuempresa" data-bs-toggle="collapse" data-bs-target="#navbarDefault" aria-expanded="false" href=""
+              onclick="addActive('menuempresa'); scrool('#empresa')" class="nav-link">Empresa</a>
           </li>
 
           <li class="nav-item">
-            <a id="menuservicos" onclick="addActive('menuservicos');" class="nav-link" href="#servicos">Serviços</a>
+            <a id="menuservicos" data-bs-toggle="collapse" data-bs-target="#navbarDefault" aria-expanded="false" href=""
+              onclick="addActive('menuservicos'); scrool('#servicos')" class="nav-link">Serviços</a>
           </li>
 
           <li class="nav-item">
-            <a id="menutime" onclick="addActive('menutime');" class="nav-link " href="#time">Nossa equipe</a>
+            <a id="menutime" data-bs-toggle="collapse" data-bs-target="#navbarDefault" aria-expanded="false" href=""
+              onclick="addActive('menutime');scrool('#time')" class="nav-link ">Nossa equipe</a>
           </li>
-          <li class="nav-item dropdown" >
+          <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" onclick="addActive('navbarDropdown');" id="navbarDropdown"
               role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Imóveis</a>
             <div class="dropdown-menu">
-              <a id="menuirural" onclick="addActive('menuirural');" class="dropdown-item " href="#irural">Rural</a>
-              <a id="menuiurbano" onclick="addActive('menuiurbano');" class="dropdown-item " href="#iurbano">Urbano</a>
+              <a id="menuirural" data-bs-toggle="collapse" data-bs-target="#navbarDefault" aria-expanded="false" href=""
+                onclick="addActive('menuirural'); scrool('#irural')" class="dropdown-item ">Rural</a>
+              <a id="menuiurbano" data-bs-toggle="collapse" data-bs-target="#navbarDefault" aria-expanded="false"
+                href="" onclick="addActive('menuiurbano');scrool('#iurbano')" class="dropdown-item ">Urbano</a>
             </div>
           </li>
 
           <li class="nav-item">
-            <a id="menucontato" onclick="addActive('menucontato');" class="nav-link " href="#contato">Contato</a>
+            <a id="menucontato" data-bs-toggle="collapse" data-bs-target="#navbarDefault" aria-expanded="false" href=""
+              onclick="addActive('menucontato'); scrool('#contato')" class="nav-link " href="">Contato</a>
           </li>
 
         </ul>
@@ -2714,6 +2676,11 @@
         }
         el.classList.add('active');
       }
+
+      function scrool(menu) {
+        window.location.href = menu;
+      }
+
 
 
     </script>
