@@ -72160,7 +72160,7 @@ p=A.bO("Escolha a Localiza\xe7\xe3o da Propriedade",k,k,k,B.b_,k,k)
 o=l.j1(a)>1?A.dZ(A.a([new A.fv(1,B.bo,l.FN(),k),B.fc,new A.fv(1,B.bo,l.FM(),k)],g),B.v,B.bs,B.w):A.eC(A.a([l.FN(),B.lk,l.FM()],g),B.v,B.a0,B.w)
 n=l.a.d==="Rural"?A.bO("Selecione a Finalidade da Propriedade",k,k,k,B.b_,k,k):B.ap
 if(l.j1(a)>1)m=A.dZ(A.a([new A.fv(1,B.bo,l.a.d==="Rural"?l.FO(l.k2):B.ap,k),B.fc,B.Co],g),B.v,B.bs,B.w)
-else m=A.eC(l.a.d==="Rural"?l.FO(l.k2):B.ap,B.v,B.a0,B.w)
+else m=A.eC(A.a([l.a.d==="Rural"?l.FO(l.k2):B.ap],g),B.v,B.a0,B.w)
 m=A.al_(A.eC(A.a([new A.Ha(B.CW,i,k),new A.bj(B.ef,h,k),new A.bj(B.ee,f,k),new A.bj(B.ef,s,k),new A.bj(B.ee,r,k),new A.bj(B.ef,p,k),new A.bj(B.ee,o,k),new A.bj(B.ef,n,k),new A.bj(B.ee,m,k),B.I0],g),B.h1,B.a0,B.w),l.db)
 i=l.ax?A.dZ(A.a([A.bO("Buscando ",k,k,k,B.cV,k,k),B.yI],g),B.v,B.a0,B.w):A.bO("Buscar",k,k,k,B.cV,k,k)
 h=l.ax?B.ap:B.nr
