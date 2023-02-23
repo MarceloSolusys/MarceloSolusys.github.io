@@ -72560,7 +72560,7 @@ return b.LI(A.ij(B.j,s.length),s)}}
 A.nd.prototype={
 am(){return new A.M_(A.aoR("pt_BR","R$"),new A.Ur(new A.b0(new A.ac($.ab,t.wC),t.Fe)),B.k)}}
 A.M_.prototype={
-J(a){var s,r,q,p=this,o=null,n=p.a.c,m=A.awr(B.U,o,o,B.fL,new A.o3(A.h(n.dx[0].d),1,o),!1,o,B.c9),l=n.ax
+J(a){var s,r,q,p=this,o=null,n=p.a.c,m=A.awr(B.U,o,o,B.fL,new A.o3("https://api.allorigins.win/raw?url="+A.h(n.dx[0].d),1,o),!1,o,B.c9),l=n.ax
 l.toString
 s=t.D
 n=A.e5(o,A.eC(A.a([A.bO(l+" - "+J.dy(n.ay),o,o,o,B.cV,o,o)],s),B.v,B.a0,B.eN),B.o,B.fT,o,o,o,o,o,B.a7,B.a7,o,o,1/0)
@@ -72653,7 +72653,7 @@ A.ab6.prototype={
 $1(a){var s,r=null,q=A.pI(8),p=this.a,o=a.b
 o.toString
 s=t.D
-return new A.nk(q,A.kC(B.bk,A.a([A.lG(!1,!0,A.aoj(o,B.fL,new A.ab2(a)),r,!0,r,r,r,r,r,r,r,r,r,new A.ab3(p,this.b,a),r,r,r,r,r,r,r),new A.cK(B.fI,r,r,A.e5(r,A.dZ(A.a([A.apQ(A.bO("Anterior ",r,r,r,B.cV,r,r),new A.ab4(p),r),A.apQ(A.bO("Pr\xf3xima ",r,r,r,B.cV,r,r),new A.ab5(p),r)],s),B.v,B.bs,B.w),B.o,B.fT,r,r,r,r,r,B.BS,B.a7,r,r,r),r)],s),B.JJ),r)},
+return new A.nk(q,A.kC(B.bk,A.a([A.lG(!1,!0,A.aoj("https://api.allorigins.win/raw?url="+o,B.fL,new A.ab2(a)),r,!0,r,r,r,r,r,r,r,r,r,new A.ab3(p,this.b,a),r,r,r,r,r,r,r),new A.cK(B.fI,r,r,A.e5(r,A.dZ(A.a([A.apQ(A.bO("Anterior ",r,r,r,B.cV,r,r),new A.ab4(p),r),A.apQ(A.bO("Pr\xf3xima ",r,r,r,B.cV,r,r),new A.ab5(p),r)],s),B.v,B.bs,B.w),B.o,B.fT,r,r,r,r,r,B.BS,B.a7,r,r,r),r)],s),B.JJ),r)},
 $S:454}
 A.ab3.prototype={
 $0(){this.b.$1(new A.ab1(this.a,this.c))},
@@ -72675,7 +72675,7 @@ $3(a,b,c){var s,r=null
 if(c==null)return b
 s=this.a.d
 s.toString
-return A.kC(B.bk,A.a([new A.cK(B.lT,r,r,A.aoj(s,B.fL,r),r),B.x0],t.D),B.bR)},
+return A.kC(B.bk,A.a([new A.cK(B.lT,r,r,A.aoj("https://api.allorigins.win/raw?url="+s,B.fL,r),r),B.x0],t.D),B.bR)},
 $C:"$3",
 $R:3,
 $S:456}
